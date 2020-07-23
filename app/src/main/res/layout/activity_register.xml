@@ -109,7 +109,7 @@
         android:ems="10"
         android:hint="Phone"
         android:fontFamily="@font/aclonica"
-        android:inputType="textPassword"
+        android:inputType="textPhonetic"
         android:padding="10dp"
         android:textColor="@android:color/background_dark"
         android:textColorHint="?android:attr/textColorPrimaryNoDisable"
@@ -119,7 +119,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/registerBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -135,7 +135,7 @@
         app:layout_constraintTop_toBottomOf="@+id/phone" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/createText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -145,5 +145,5 @@
         app:fontFamily="@font/aclonica"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
